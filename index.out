@@ -1,24 +1,20 @@
 \BOOKMARK [0][-]{chapter.1}{OBJETIVOS}{}% 1
 \BOOKMARK [0][-]{chapter.2}{MARCO CONCEPTUAL}{}% 2
-\BOOKMARK [1][-]{section.2.1}{REDES DE \301REA LOCAL \(LAN\)}{chapter.2}% 3
-\BOOKMARK [1][-]{section.2.2}{SWICH O CONNMUTADOR}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{DIRECCI\323N F\315SICA MAC \(Media Access Control\)}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{HUB O CONCENTRADOR}{chapter.2}% 6
-\BOOKMARK [0][-]{chapter.3}{PROCEDIMIENTO}{}% 7
-\BOOKMARK [1][-]{section.3.1}{Red de Pares: Computador-Computador}{chapter.3}% 8
-\BOOKMARK [2][-]{subsection.3.1.1}{Simule el env\355o de un PDU entre los dispositivos a fin de verificar la conectividad.}{section.3.1}% 9
-\BOOKMARK [2][-]{subsection.3.1.2}{Verifique la conectividad utilizando ping desde la l\355nea de comandos. Repita lo mismo entrando al modo de simulaci\363n.}{section.3.1}% 10
-\BOOKMARK [1][-]{section.3.2}{Red LAN: Un hub y 04 computadores}{chapter.3}% 11
-\BOOKMARK [2][-]{subsection.3.2.1}{Simule el env\355o de un PDU entre la PC0 y PC2. Tome nota del comportamiento del hub.}{section.3.2}% 12
-\BOOKMARK [2][-]{subsection.3.2.2}{Simule la ejecuci\363n del comando tracert \(traceroute\). Qu\351 diferencia observa en relaci\363n a la simulaci\363n de con ping}{section.3.2}% 13
-\BOOKMARK [1][-]{section.3.3}{EJERCICIO 1}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.3.1}{Compruebe la ejecuci\363n de ping y tracert entre dos dispositivos del mismo segmento y dos dispositivos de segmentos diferentes.}{section.3.3}% 15
-\BOOKMARK [1][-]{section.3.4}{Simule el env\355o de paquetes entre dos hosts del mismo segmento y entre dos hosts de segmentos diferentes.}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.4.1}{Determine el dominio de colisi\363n}{section.3.4}% 17
-\BOOKMARK [1][-]{section.3.5}{EJERCICIO 2}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.6}{Red LAN: Switch y 03 Servidores}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.7}{caso}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{CONCLUCIONES}{}% 21
-\BOOKMARK [1][-]{section.4.1}{switch}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Hub}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.3}{laboratorio}{chapter.4}% 24
+\BOOKMARK [1][-]{section.2.1}{VLAN}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{TIPOS VLAN}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.2.1}{Puerto}{section.2.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.2}{MAC}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.3}{Aplicaciones}{section.2.2}% 7
+\BOOKMARK [0][-]{chapter.3}{PROCEDIMIENTO}{}% 8
+\BOOKMARK [1][-]{section.3.1}{Redes LAN Virtuales}{chapter.3}% 9
+\BOOKMARK [2][-]{subsection.3.1.1}{EXPERIMENTO 1}{section.3.1}% 10
+\BOOKMARK [2][-]{subsection.3.1.2}{EJERCICIO 01:}{section.3.1}% 11
+\BOOKMARK [1][-]{section.3.2}{Redes LAN Virtuales Extendidas}{chapter.3}% 12
+\BOOKMARK [2][-]{subsection.3.2.1}{EXPERIMENTO 02}{section.3.2}% 13
+\BOOKMARK [1][-]{section.3.3}{Enrutamiento de LAN Virtuales}{chapter.3}% 14
+\BOOKMARK [2][-]{subsection.3.3.1}{EXPERIMENTO 03}{section.3.3}% 15
+\BOOKMARK [2][-]{subsection.3.3.2}{EJERCICIO 02}{section.3.3}% 16
+\BOOKMARK [1][-]{section.3.4}{DESAFIO}{chapter.3}% 17
+\BOOKMARK [0][-]{chapter.4}{CONCLUCIONES}{}% 18
+\BOOKMARK [1][-]{section.4.1}{vlan switch}{chapter.4}% 19
+\BOOKMARK [1][-]{section.4.2}{ROUTER}{chapter.4}% 20

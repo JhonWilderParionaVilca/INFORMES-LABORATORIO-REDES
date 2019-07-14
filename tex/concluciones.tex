@@ -1,21 +1,16 @@
 \chapter{CONCLUCIONES}
 
 %=====================================
-\section{switch}
+  \section{vlan switch}
 
 \begin{caja}[]{
- Este dispositivo es mucho mas inteligente que el hub. Ademas de existir el switch de capa 3 que ofrece los servicios de un router y switch a la vez. En cisco recomiendan trabajar con switchs de capa 3 para la capa de distribucion, ya que es mucho mas eficiente que un router. Los switchs de capa dos se deben de usar mayormente en capa de acceso en la conexi\'on directa con los pc
+El presente laboratorio ayud\'o a establecer las configuraciones de una vlan con los switch.
+\\ Al conectar dos switch debemos de configurarlo como troncal cuando queremos acceder a todas las vlanes; el modo de acceso solo permite tener acceso a una vlan especifica y no se aprovecharia la comunicacion intervlan que requerimo; aunque en ciertos casos podria convenirnos mas el modo de acceso, para poder elegir debemos de analizar que es lo que queremos y de acuerdo a ello tomar una decisi\'on.
  }\end{caja}
  
- \section{Hub}
+   \section{ROUTER}
 
 \begin{caja}[]{
-Estos equipos ya pr\'acticamente desaparecieron a causa del switch. su uso ya no se ve actualmente pero se podria recomendra para salas de conferencia en la cual la comunicaci\'on dentro de este ambiente al ser multiple podria ayudar a la comunicaci\'on
- }\end{caja}
- 
-  \section{laboratorio}
-
-\begin{caja}[]{
-El presente laboratorio ayud\'o a establecer las configuraciones iniciales de una lan simple. 
-Como vemos la comunicaci\'on es de los computadores que esten conectados al mismo switch y si este switch esta conectado con otro tambi\'en permite la comunicaci\'on esto se debe a que por defecto existe la vlan1 la cual es para todos los puertos.\\
+Vimos tambi\'en que podemos configurar un router para la comunicacion inter vlans; ya que no podemos comunicarnos entre vlans si es que no contamos con el router.
+\\Para la creacion de sub interfaces para las vlans tenemos que distribuir de manera correcta la subred.
  }\end{caja}

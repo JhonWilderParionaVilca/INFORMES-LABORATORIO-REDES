@@ -1,33 +1,22 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {\es@scroman {i}}OBJETIVOS}{4}{chapter.1}
-\contentsline {chapter}{\numberline {\es@scroman {ii}}MARCO CONCEPTUAL}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}REDES DE \'AREA LOCAL (LAN)}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}SWICH O CONNMUTADOR}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}DIRECCI\'ON F\'ISICA MAC (Media Access Control)}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}HUB O CONCENTRADOR}{7}{section.2.4}
-\contentsline {chapter}{\numberline {\es@scroman {iii}}PROCEDIMIENTO}{8}{chapter.3}
-\contentsline {section}{\numberline {3.1}Red de Pares: Computador-Computador}{8}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Simule el env\'io de un PDU entre los dispositivos a fin de verificar la conectividad.}{8}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Verifique la conectividad utilizando ping desde la l\'inea de comandos. Repita lo mismo entrando al modo de simulaci\'on.}{9}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Red LAN: Un hub y 04 computadores}{9}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Simule el env\'io de un PDU entre la PC0 y PC2. Tome nota del comportamiento del hub.}{10}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Simule la ejecuci\'on del comando tracert (traceroute). Qu\'e diferencia observa en relaci\'on a la simulaci\'on de con ping}{10}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}EJERCICIO 1}{11}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Compruebe la ejecuci\'on de ping y tracert entre dos dispositivos del mismo segmento y dos dispositivos de segmentos diferentes.}{11}{subsection.3.3.1}
-\contentsline {subsubsection}{Mismo segmento}{11}{section*.2}
-\contentsline {subsubsection}{Segmentos diferentes}{12}{section*.3}
-\contentsline {section}{\numberline {3.4}Simule el env\'io de paquetes entre dos hosts del mismo segmento y entre dos hosts de segmentos diferentes.}{13}{section.3.4}
-\contentsline {subsubsection}{Mismo segmento}{13}{section*.4}
-\contentsline {subsubsection}{Segmentos diferentes}{14}{section*.5}
-\contentsline {subsection}{\numberline {3.4.1}Determine el dominio de colisi\'on}{14}{subsection.3.4.1}
-\contentsline {section}{\numberline {3.5}EJERCICIO 2}{14}{section.3.5}
-\contentsline {subsubsection}{Compruebe la ejecuci\'on de ping y tracert entre los distintos nodos de red, adem\'as de simular el env\'io de paquetes simples y complejos entre los distintos nodos.}{15}{section*.6}
-\contentsline {subsubsection}{Simule el env\'io de paquetes entre dos hosts del mismo segmento y entre dos hosts de segmentos diferentes.}{16}{section*.7}
-\contentsline {subsubsection}{Determine el dominio de colisi\'on.}{17}{section*.8}
-\contentsline {section}{\numberline {3.6}Red LAN: Switch y 03 Servidores}{17}{section.3.6}
-\contentsline {section}{\numberline {3.7}caso}{20}{section.3.7}
-\contentsline {chapter}{\numberline {\es@scroman {iv}}CONCLUCIONES}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}switch}{24}{section.4.1}
-\contentsline {section}{\numberline {4.2}Hub}{24}{section.4.2}
-\contentsline {section}{\numberline {4.3}laboratorio}{24}{section.4.3}
+\contentsline {chapter}{\numberline {\es@scroman {i}}OBJETIVOS}{3}{chapter.1}
+\contentsline {chapter}{\numberline {\es@scroman {ii}}MARCO CONCEPTUAL}{4}{chapter.2}
+\contentsline {section}{\numberline {2.1}VLAN}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}TIPOS VLAN}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Puerto}{4}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}MAC}{5}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Aplicaciones}{6}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {\es@scroman {iii}}PROCEDIMIENTO}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Redes LAN Virtuales}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}EXPERIMENTO 1}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}EJERCICIO 01:}{8}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Redes LAN Virtuales Extendidas}{10}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}EXPERIMENTO 02}{11}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Enrutamiento de LAN Virtuales}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}EXPERIMENTO 03}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}EJERCICIO 02}{16}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}DESAFIO}{18}{section.3.4}
+\contentsline {chapter}{\numberline {\es@scroman {iv}}CONCLUCIONES}{20}{chapter.4}
+\contentsline {section}{\numberline {4.1}vlan switch}{20}{section.4.1}
+\contentsline {section}{\numberline {4.2}ROUTER}{20}{section.4.2}
 \contentsfinish 

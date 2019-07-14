@@ -2,74 +2,45 @@
 \chapter{MARCO CONCEPTUAL}
 
 %=====================================
-\section{REDES DE \'AREA LOCAL (LAN)}
-En el libro de Tanenbaum hace referencia a una clasificaci\'on basada en la distancia y con un ejemplo mas del mundo real.
-\begin{caja}[]{
- \includegraphics[scale=0.70]{clasifred}
- }\end{caja}
- Seg\'un el gr\'afico una red lan comprender\'ia un cuarto, edificio o campus. Adem\'as Tanenbaum nos menciona que estas redes son de propiedad privada y son utilizadas ampliamente para compartir recursos e intercambiar informaci\'on.\\
- Cuando las empresas usan las redes lan se les conoce como REDES EMPRESARIALES.
-
-Mayormente en los hogares se opta por las conexi\'ones inalambricas
-
-\begin{caja}[]{
- \includegraphics[scale=0.50]{CONEC}
- }\end{caja}
- 
-Existe un est\'andar para las redes LAN inal\'ambricas llamado IEEE 802.11, mejor conocido como WiFi que opera a velocidades desde 11 hasta cientos de Mbps.
-\\
-Mientras que para las redes al\'ambrica existe el est\'andar IEEE 802.3, com\'unmente conocido como Ethernet
-
-\\
-
+\section{VLAN}
 \begin{definicion}[]
 {
-Para crear redes LAN m\'as grandes se pueden conectar switches entre s\'i mediante sus puertos.
+Una VLAN (Red de \'area local virtual o LAN virtual) es una red de \'area local que agrupa un conjunto de equipos de manera l\'ogica y no f\'isica. Efectivamente, la comunicaci\'on entre los diferentes equipos en una red de \'area local est\'a regida por la arquitectura f\'isica.
 }
-\end{definicion}}
-%=====================================0
+\end{definicion}lan 
 
-%========================================
-\section{SWICH O CONNMUTADOR}
-El trabajo del switch es transmitir paquetes entre las computadoras conectadas a \'el, y utiliza la direcci\'on en cada paquete para determinar a qu\'e computadora se lo
-debe enviar. 
-
-%==============================================0
-
-%==============================================
-\section{DIRECCI\'ON F\'ISICA MAC (Media Access Control)}
-Es un identificador \'unico, son llamadas tambi\'en \textbf{burned-in addresses} ya que son escritas directamente y en forma binaria al momento de la fabricaci\'on del dispositivo.
-
+\section{TIPOS VLAN}
+\subsection{Puerto}
 \begin{definicion}[]
 {
-Es un identificador de 48 bits donde los primeros  24 bits corresponden al fabricante y los \'ultimos 24 bits es regulada por la IEEE.
-\\
-la IEEE maneja 3 identificadores globales \'unicos \textbf{MAC-48, EUI-48, y EUI-64}
-
-\end{definicion}}
-
-\begin{caja}[]{
- \includegraphics[scale=0.68]{mac}
- }\end{caja}
-
-%==============================================0
-
-
-
-\section{HUB O CONCENTRADOR}
-
-\parbox{4cm}{
-\begin{caja}[]{
- \includegraphics[scale=0.80]{hub}
- }\end{caja}
- } \parbox{10.8cm}{ 
-\begin{definicion}[]
-{
-Trabaja en la capa f\'isica (capa 1) del modelo OSI o la capa de acceso al medio en el modelo TCP/IP. 
-\\
-Recibe una se\~nal y la repite por sus diferentes puertos.
-\\
-Actualmente la tarea de los concentradores lo realizan los conmutadores y son m\'as baratos; por ello, los hubs son dificiles de encontrar.
+Tambi\'en conocida como Port Switching en los men\'us de configuraci\'on de los routers y switches, se trata de la m\'as extendida y utilizada. Cada puerto se asigna a una VLAN y los usuarios que est\'en conectados a ese puerto pertenecen a la VLAN asignada. Los usuarios dentro de una misma VLAN poseen de visibilidad los unos sobre los otros, aunque no a las redes virtuales vecinas. El \'unico inconveniente es que no permite dinamismo a la hora de ubicar los usuarios y en el caso de que el usuario cambie de emplazamiento f\'isicamente se deber\'ia reconfigurar la red virtual.
 }
-\end{definicion}}
-\\
+\end{definicion}
+
+\begin{caja}[]{
+\includegraphics[scale=0.5]{img/puerto.jpg} 
+ }\end{caja}
+ Al inicio la vlan asignada por defecto es la vlan 1 por ello no es recomendado asignar esta vlan a una red.\\
+ Cada puerto puede ser asignado a un vlan.\\
+
+ \subsection{MAC}
+ \begin{definicion}[]
+{
+ El razonamiento es similar a la anterior, salvo que en vez de ser una asignaci\'on a nivel de puerto lo es a nivel de direcci\'on MAC del dispositivo. La ventaja es que permite movilidad sin necesidad de que se tengan que aplicar cambios en la configuraci\'on del switch o del router. El problema parece bastante claro: a\~nadir todos los usuarios puede resultar tedioso.
+}
+\end{definicion}
+
+\begin{caja}[]{
+\includegraphics[scale=1]{img/mac.jpg} 
+ }\end{caja}
+
+ \subsection{Aplicaciones}
+ \begin{definicion}[]
+{
+Se asignar\'ian redes virtuales en funci\'on de la aplicaci\'on utilizada, y en este caso intervienen varios factores, como por ejemplo la hora en la que nos encontramos, la direcci\'on MAC o la subred, permitiendo distinguir entre aplicaciones SSH, FTP, Samba o incluso SMTP.
+}
+\end{definicion}
+
+\begin{caja}[]{
+\includegraphics[scale=1]{img/aplicaciones.jpg} 
+ }\end{caja}
